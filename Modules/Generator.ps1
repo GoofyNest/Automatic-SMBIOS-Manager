@@ -45,8 +45,8 @@ function Get-RandomCpuString {
 # BIOS date generation
 # ============================================
 
-$startDate = Get-Date "01/01/2021"
-$endDate   = Get-Date "12/31/2025"
+$startDate = [DateTime]::new(2021, 1, 1)
+$endDate   = [DateTime]::new(2025, 12, 31)
 
 $biosDate = $startDate.AddDays(
     (Get-Random -Minimum 0 -Maximum (($endDate - $startDate).Days + 1))
