@@ -31315,5 +31315,16 @@
         "RaidSupport":  false,
         "Socket":  "AM4",
         "Generation":  "1st, 2nd, 3rd"
+    },
+    {
+        "Manufacturer":  "ASRock",
+        "ProductName":  "B650 PG Lightning",
+        "IntelCPU":  false,
+        "AMDCPU":  true,
+        "DDR4":  false,
+        "DDR5":  true,
+        "RaidSupport":  false,
+        "Socket":  "AM5",
+        "Generation":  "Unknown"
     }
 ]
